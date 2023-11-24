@@ -8,6 +8,9 @@ Offical Docs and more features to follow : https://learn.microsoft.com/en-us/gra
         Learn how to : https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application
         and set redirect URLs to by default : https://localhost:3000
      - You can see your Application (client) ID in Overview. Copy that and paste it in your .env file
+       <br>
+          <img width="1434" alt="Screenshot 2023-11-24 at 3 35 08 PM" src="https://learn.microsoft.com/en-us/azure/active-directory-b2c/media/client-credentials-grant-flow/get-application-id.png">
+       <br>
      - Make sure that under your app name, in authentication tab in advanced setttings that 'Allow public client flows
 ' is enabled.
 <br>
@@ -18,5 +21,11 @@ Offical Docs and more features to follow : https://learn.microsoft.com/en-us/gra
      - First run the config_first.py file to generate a api_token.json which will authenticate your account.
          This will take you to a web browser for logging in and further Installation, while running this print a user_code, copy that and            paste it in web browser asking for the code and follow your rest of the login process.
          It will generate a api_token_access.json in your CWD. Once done, you don't have to login again except when you changed permissions           or updated any scopes, delete and run the config_first.py  again. 
+    <br>
+       <img width="658" alt="Screenshot 2023-11-24 at 3 25 59 PM" src="https://github.com/niranjandasMM/MicrosoftGraphAPI/assets/85221814/826ec815-37fe-452d-b1b2-d04598055129">
+    <br>
 
+    <br>
+    ![Screenshot 2023-11-24 at 3 26 30 PM](https://github.com/niranjandasMM/MicrosoftGraphAPI/assets/85221814/b0cd11ef-03d7-4485-9a73-629d9fcc4e30)
+    <br>
       - Run DownloadFromOneDrive.py, OutlookEmailsRead.py and UploadToOneDrive.py predifined sripts. Update and add more features as per your needs by reading the Api Docs :  https://learn.microsoft.com/en-us/graph/overview
