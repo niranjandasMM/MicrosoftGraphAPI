@@ -1,8 +1,7 @@
 Offical Docs and more features to follow : https://learn.microsoft.com/en-us/graph/overview
 
 1. First install two modules using pip : 
-    pip3 install python-dotenv
-    pip3 install msal
+    pip3 install python-dotenv && pip3 install msal
 
 2. In Your Azure AD : https://portal.azure.com/#home
      - Register an app under app registrations of azure services (No subrciptions are needed to use this service.)
